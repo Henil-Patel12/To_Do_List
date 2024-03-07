@@ -17,9 +17,19 @@ function ToDoList({ tasks }) {
 
 const styles = StyleSheet.create({
     task: {
-      padding: 10,
-      borderBottomWidth: 1,
-      borderColor: '#ccc',
+      padding: 20,
+      backgroundColor: '#c5cae9', // light blue
+      marginVertical: 10,
+      borderRadius: 5,
+      shadowColor: '#000',
+      shadowOffset: { width: 0, height: 1 },
+      shadowOpacity: 0.3,
+      shadowRadius: 2,
+      elevation: 3,
+    },
+    taskText: {
+      fontSize: 18,
+      color: '#333',
     },
     completed: {
       backgroundColor: '#e0e0e0',
